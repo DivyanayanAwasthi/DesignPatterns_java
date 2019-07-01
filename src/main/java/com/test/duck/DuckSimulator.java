@@ -12,5 +12,6 @@ public class DuckSimulator {
         duck.performQuack();
         duck.setFlyingBehaviour(new FlyNoWay());
         duck.performFly();
+        System.out.println("Completed");
     }
 }
